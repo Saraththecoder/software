@@ -6,8 +6,15 @@ import StatsCounter from '../components/StatsCounter/StatsCounter';
 import WhyChooseUs from '../components/WhyChooseUs/WhyChooseUs';
 import LogoMarquee from '../components/LogoMarquee/LogoMarquee';
 import CTABanner from '../components/CTABanner/CTABanner';
+import { useDocumentMetadata } from '../hooks/useDocumentMetadata';
 
 export const Home: React.FC = () => {
+  useDocumentMetadata({
+    title: 'Oryon Technologies Inc. | Premium IT Staffing & Consulting',
+    description: 'Connect with elite tech talent and professional technology consulting. Custom scalable staffing models to scale business engineering teams, C2C compliance, and recruitment.',
+    keywords: 'Oryon Technologies, IT Staffing, Tech recruitment, Contract staffing, C2C hiring, IT consulting, Workforce solutions, NJ recruitment agency'
+  });
+
   return (
     <motion.div
       initial={{ opacity: 0 }}

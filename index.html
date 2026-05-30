@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#863bff" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <!-- Primary Meta Tags -->
@@ -26,6 +29,55 @@
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:title" content="Oryon Technologies Inc. | Premium IT Staffing & Consulting" />
     <meta property="twitter:description" content="Connect with elite tech talent and professional technology consulting." />
+    
+    <!-- JSON-LD Structured Data Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://oryontechnologies.com/#organization",
+          "name": "Oryon Technologies Inc.",
+          "url": "https://oryontechnologies.com",
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://oryontechnologies.com/#logo",
+            "url": "https://oryontechnologies.com/logo.png",
+            "caption": "Oryon Technologies Inc. Logo"
+          },
+          "email": "info@oryontechnologies.com",
+          "sameAs": [
+            "https://www.linkedin.com/company/oryon-technologies"
+          ],
+          "description": "Oryon Technologies Inc. connects high-growth companies with elite tech talent, offering premium IT staffing, C2C hiring, and software consulting."
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://oryontechnologies.com/#website",
+          "url": "https://oryontechnologies.com",
+          "name": "Oryon Technologies",
+          "publisher": {
+            "@id": "https://oryontechnologies.com/#organization"
+          }
+        },
+        {
+          "@type": "EmploymentAgency",
+          "@id": "https://oryontechnologies.com/#agency",
+          "name": "Oryon Technologies IT Recruitment",
+          "url": "https://oryontechnologies.com",
+          "image": "https://oryontechnologies.com/logo.png",
+          "priceRange": "$$$",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Edison",
+            "addressRegion": "NJ",
+            "addressCountry": "US"
+          }
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>

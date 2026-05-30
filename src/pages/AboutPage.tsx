@@ -4,8 +4,15 @@ import PageHeader from '../components/UI/PageHeader';
 import About from '../components/About/About';
 import StatsCounter from '../components/StatsCounter/StatsCounter';
 import Testimonials from '../components/Testimonials/Testimonials';
+import { useDocumentMetadata } from '../hooks/useDocumentMetadata';
 
 export const AboutPage: React.FC = () => {
+  useDocumentMetadata({
+    title: 'About Oryon Technologies | IT Staffing Agency & Recruitment Solutions',
+    description: 'Learn about Oryon Technologies Inc., a premier staffing agency specializing in direct hire, temporary contract placement, and Corp-to-Corp compliance.',
+    keywords: 'About Oryon Technologies, IT staffing experts, tech recruiting founders, employment agency NJ, corporate solutions'
+  });
+
   return (
     <motion.div
       initial={{ opacity: 0 }}

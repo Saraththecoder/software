@@ -1,0 +1,16 @@
+{
+  "name": "Oryon Technologies Inc.",
+  "short_name": "Oryon Tech",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#863bff",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/"
+}
