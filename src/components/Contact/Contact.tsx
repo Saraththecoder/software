@@ -87,24 +87,10 @@ export const Contact: React.FC = () => {
               <div>
                 <h4 className="text-base font-extrabold text-navy dark:text-white mb-1">Email Inquiries</h4>
                 <a 
-                  href="mailto:info@oryontechnologies.com" 
+                  href="mailto:rathin@oryontech.net" 
                   className="text-sm font-semibold text-primary dark:text-accent-sky hover:underline"
                 >
-                  info@oryontechnologies.com
-                </a>
-              </div>
-            </div>
-
-            {/* Phone Card */}
-            <div className="flex items-start space-x-4 p-6 bg-slate-50 dark:bg-darkBg-card border border-blue-50/50 dark:border-darkBg-border rounded-2xl shadow-sm">
-              <span className="text-3xl flex-shrink-0">📞</span>
-              <div>
-                <h4 className="text-base font-extrabold text-navy dark:text-white mb-1">Corporate Hotline</h4>
-                <a 
-                  href="tel:+17325550199" 
-                  className="text-sm font-semibold text-primary dark:text-accent-sky hover:underline font-mono"
-                >
-                  +1 (732) 555-0199
+                  rathin@oryontech.net
                 </a>
               </div>
             </div>

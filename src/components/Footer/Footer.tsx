@@ -115,11 +115,7 @@ export const Footer: React.FC = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <span className="text-lg flex-shrink-0">✉️</span>
-                <a href="mailto:info@oryontechnologies.com" className="hover:text-white transition-colors">info@oryontechnologies.com</a>
-              </li>
-              <li className="flex items-center space-x-3">
-                <span className="text-lg flex-shrink-0">📞</span>
-                <a href="tel:+17325550199" className="hover:text-white transition-colors">+1 (732) 555-0199</a>
+                <a href="mailto:rathin@oryontech.net" className="hover:text-white transition-colors">rathin@oryontech.net</a>
               </li>
               <li className="flex items-center space-x-3">
                 <span className="text-lg flex-shrink-0">🕐</span>
